@@ -1,4 +1,4 @@
-import Nav from '../Nav/Nav';
+import Nav from '../layout/Nav';
 import styles from './Header.module.css';
 
 const Header = () => {

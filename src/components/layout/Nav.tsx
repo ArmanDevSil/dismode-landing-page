@@ -1,3 +1,4 @@
+import Button from '../ui/Button/Button';
 import styles from './Nav.module.css';
 
 const Nav = () => {
@@ -17,10 +18,9 @@ const Nav = () => {
           <li>
             <a href="#testmonials">Testmonials</a>
           </li>
-          <li>
-            <a href="#">Learn In DisMode</a>
-          </li>
+          <li></li>
         </ul>
+        <Button text="Learn Now" />
       </nav>
     </>
   );
