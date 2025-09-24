@@ -1,0 +1,14 @@
+@import url('../../../assets/styles/variables.css');
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.btn--cta {
+  background-color: var(--primary-color);
+  color: var(--prim-txt-color);
+}
