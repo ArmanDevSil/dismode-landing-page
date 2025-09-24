@@ -16,11 +16,11 @@ const Nav = () => {
             <a href="#pricing">Pricing</a>
           </li>
           <li>
-            <a href="#testmonials">Testmonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li></li>
         </ul>
-        <Button text="Learn Now" />
+        <Button id="cta" className="btn btn--cta" text="Learn Now" />
       </nav>
     </>
   );
