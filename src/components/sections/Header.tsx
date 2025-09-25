@@ -3,12 +3,14 @@ import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <header className={styles.header}>
-      <a href="#">
-        <img src="" className={styles.logo} alt="DisMode logo" />
-      </a>
-      <Nav />
-    </header>
+    <section className="section section--header">
+      <header className={styles.header}>
+        <a href="#">
+          <img src="" className={styles.logo} alt="DisMode logo" />
+        </a>
+        <Nav />
+      </header>
+    </section>
   );
 };
 
