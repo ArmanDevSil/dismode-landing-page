@@ -5,8 +5,12 @@ const Header = () => {
   return (
     <section className="section section--header">
       <header className={styles.header}>
-        <a href="#">
-          <img src="" className={styles.logo} alt="DisMode logo" />
+        <a href="#" className={styles.imageContainer}>
+          <img
+            src="../../../public/logo.png"
+            className={styles.logo}
+            alt="DisMode logo"
+          />
         </a>
         <Nav />
       </header>

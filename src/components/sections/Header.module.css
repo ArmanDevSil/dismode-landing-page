@@ -4,12 +4,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
+  background-color: rgb(10 25 47 / 100%);
   font-size: 1.4rem;
   padding: 1.6rem;
   text-transform: uppercase;
 }
 
+.imageContainer {
+  height: 5rem;
+}
+
 .logo {
-  width: 20px;
+  width: auto;
+  height: 100%;
 }
