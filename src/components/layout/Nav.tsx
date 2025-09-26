@@ -1,4 +1,3 @@
-import Button from '../ui/Button/Button';
 import styles from './Nav.module.css';
 
 const Nav = () => {
@@ -20,7 +19,6 @@ const Nav = () => {
           </li>
           <li></li>
         </ul>
-        <Button id="cta" className="btn btn--cta" text="Learn Now" />
       </nav>
     </>
   );
