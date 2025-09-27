@@ -17,7 +17,6 @@ const Nav = () => {
           <li>
             <a href="#testimonials">Testimonials</a>
           </li>
-          <li></li>
         </ul>
       </nav>
     </>
