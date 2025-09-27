@@ -19,6 +19,7 @@ body {
 a:link {
   color: var(--txt-color);
   text-decoration: none;
+  transition: all 0.2s;
 }
 
 a:visited {
