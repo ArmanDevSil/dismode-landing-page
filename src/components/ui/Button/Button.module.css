@@ -3,12 +3,33 @@
 .btn {
   border: none;
   border-radius: 5px;
-  font-size: 1.6rem;
-  padding: 1rem;
-  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1.5rem;
+  border-radius: 10rem;
+  box-shadow: var(--btn-box-shadow);
 }
 
 .btn--cta {
-  background-color: var(--primary-color);
-  color: var(--prim-txt-color);
+  background-color: var(--btn-cta-bgcolor);
+  border: var(--btn-cta-border);
+  transition: all 0.2s;
+}
+
+.btn--cta:hover {
+  background-color: var(--btn-cta-bgcolor-hover);
+  border: var(--btn-cta-border-hover);
+  box-shadow: var(--btn-box-shadow-hover);
+}
+
+.btn--contact {
+  background-color: var(--btn-contact-bgcolor);
+  border: var(--btn-contact-border);
+  transition: all 0.2s;
+}
+
+.btn--contact:hover {
+  background-color: var(--btn-contact-bgcolor-hover);
+  border: var(--btn-contact-border-hover);
+  box-shadow: var(--btn-box-shadow-hover);
 }
