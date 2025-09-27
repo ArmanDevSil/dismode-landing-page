@@ -1,7 +1,26 @@
 :root {
+  /* general colors */
   --primary-color: #00bfa6;
   --prim-txt-color: #111827;
   --secondary-color: #00f2d2;
   --bg-color: #0a192f;
   --bg-txt-color: #a9c7ea;
+
+  /* button variables*/
+
+  /* general */
+  --btn-box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
+  --btn-box-shadow-hover: 0 0 15px 10px rgba(0, 0, 0, 0.2);
+
+  /* button cta */
+  --btn-cta-bgcolor: rgba(0, 191, 166, 0.1);
+  --btn-cta-bgcolor-hover: rgba(0, 191, 166, 0.2);
+  --btn-cta-border: solid 1px rgba(0, 191, 166, 0.2);
+  --btn-cta-border-hover: solid 1px rgba(0, 191, 166, 0.3);
+
+  /* button contact */
+  --btn-contact-bgcolor: rgba(255, 255, 255, 0.1);
+  --btn-contact-bgcolor-hover: rgba(255, 255, 255, 0.2);
+  --btn-contact-border: solid 1px rgba(255, 255, 255, 0.2);
+  --btn-contact-border-hover: solid 1px rgba(255, 255, 255, 0.3);
 }
