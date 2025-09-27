@@ -12,7 +12,8 @@ html {
 
 body {
   color: var(--txt-color);
-  font-family: 'Roboto', 'Lato', sans-serif;
+  background: var(--bg-color);
+  font-family: 'Nunito', 'Roboto', sans-serif;
 }
 
 a:link {
