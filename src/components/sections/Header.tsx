@@ -14,7 +14,7 @@ const Header = () => {
           />
         </a>
         <Nav />
-        <div className="container container--btn">
+        <div className={`container ${styles.containerBtn}`}>
           <Button id="cta" className="btn btn--cta" text="Learn Now" />
           <Button id="contact" className="btn btn--contact" text="Contact Us" />
         </div>
