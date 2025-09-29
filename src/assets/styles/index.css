@@ -33,3 +33,12 @@ a:hover {
 a:active {
   color: #eaedf0;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
