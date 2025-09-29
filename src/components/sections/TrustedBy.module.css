@@ -1,0 +1,35 @@
+.sectionTrustedBy {
+  width: 100%;
+  padding: 1.6rem 3rem;
+  margin-bottom: 4.4rem;
+}
+
+.icon {
+  font-size: 6rem;
+  color: rgba(255, 255, 255, 0.4);
+  transition: all 0.2s;
+}
+
+.icon:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.containerLogosImg {
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 2rem;
+  gap: 20px;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.containerLogosImg {
+  animation: scroll-x 10s infinite linear;
+}
