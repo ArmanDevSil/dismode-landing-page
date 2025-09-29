@@ -7,11 +7,7 @@ const Header = () => {
     <section className="section section--header">
       <header className={styles.header}>
         <a href="#" className={styles.imageContainer}>
-          <img
-            src="../../../public/logo.png"
-            className={styles.logo}
-            alt="DisMode logo"
-          />
+          <img src="/logo.png" className={styles.logo} alt="DisMode logo" />
         </a>
         <Nav />
         <div className={`container ${styles.containerBtn}`}>
