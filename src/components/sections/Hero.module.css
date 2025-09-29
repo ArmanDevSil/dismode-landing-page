@@ -1,0 +1,14 @@
+.sectionHero {
+  padding: 1.6rem 3rem;
+}
+
+.heroTextBox {
+  text-align: center;
+}
+
+.heroTextBox p {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  width: 25rem;
+  text-align: center;
+}
