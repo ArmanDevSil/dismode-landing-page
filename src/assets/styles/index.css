@@ -42,3 +42,13 @@ a:active {
   justify-content: center;
   align-items: center;
 }
+
+.flex-column {
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4.6rem;
+  width: 40rem;
+  margin-bottom: 2rem;
+}
