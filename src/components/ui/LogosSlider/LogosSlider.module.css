@@ -1,0 +1,27 @@
+.logosSlider img {
+  width: 12rem;
+}
+
+.logosSlider img:hover {
+  filter: contrast(0);
+}
+
+.logosSlider {
+  display: flex;
+  width: max-content;
+  padding: 2rem 0;
+  gap: 8rem;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(calc(0% + 4rem));
+  }
+}
+
+.logosSlider {
+  animation: scroll-x 20s infinite linear;
+}
