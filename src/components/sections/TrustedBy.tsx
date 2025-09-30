@@ -6,7 +6,6 @@ const TrustedBy = () => {
     <section
       className={`section ${styles.sectionTrustedBy} flex flex-center flex-column`}
     >
-      <h2>Trusted By</h2>
       <div className={styles.logosContainer}>
         <LogosSlider />
       </div>
