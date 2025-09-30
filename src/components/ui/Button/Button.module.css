@@ -25,6 +25,7 @@
 .btn--cta:active {
   background-color: var(--btn-cta-bgcolor);
   border: var(--btn-cta-border);
+  box-shadow: var(--btn-box-shadow);
 }
 
 .btn--contact {
@@ -42,4 +43,5 @@
 .btn--contact:active {
   background-color: var(--btn-contact-bgcolor);
   border: var(--btn-contact-border);
+  box-shadow: var(--btn-box-shadow);
 }
