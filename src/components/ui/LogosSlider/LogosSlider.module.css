@@ -1,5 +1,6 @@
 .logosSlider img {
   width: 12rem;
+  transition: all 0.2s;
 }
 
 .logosSlider img:hover {
