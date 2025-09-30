@@ -1,43 +1,47 @@
 .sectionTrustedBy {
   width: 100%;
-  padding: 1.6rem 3rem;
+  padding: 1.6rem 0rem;
   margin-bottom: 4.4rem;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .logosContainer {
   width: 100%;
-  white-space: nowrap;
   overflow: hidden;
+
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 30%,
+    white 70%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 30%, white 70%, transparent);
 }
 
-.icon {
-  font-size: 6rem;
-  color: rgba(255, 255, 255, 0.4);
-  transition: all 0.2s;
+.logosSlider img {
+  width: 12rem;
 }
 
-.icon:hover {
-  color: rgba(255, 255, 255, 0.6);
+.logosSlider img:hover {
+  filter: contrast(0);
 }
 
 .logosSlider {
-  width: 100%;
-  justify-content: space-evenly;
-  padding: 2rem;
-  gap: 20px;
+  display: flex;
+  width: max-content;
+  padding: 2rem 0;
+  gap: 8rem;
 }
 
 @keyframes scroll-x {
   from {
-    transform: translateX(0);
+    transform: translateX(-50%);
   }
   to {
-    transform: translateX(100%);
+    transform: translateX(calc(0% + 4rem));
   }
 }
 
 .logosSlider {
-  animation: scroll-x 10s infinite linear;
+  animation: scroll-x 20s infinite linear;
 }
