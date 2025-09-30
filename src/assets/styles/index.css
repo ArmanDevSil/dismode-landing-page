@@ -48,7 +48,11 @@ a:active {
 }
 
 h1 {
-  font-size: 4.6rem;
-  width: 40rem;
-  margin-bottom: 2rem;
+  font-size: 5.4rem;
+  width: 47rem;
+  margin-bottom: 2.8rem;
+}
+
+h1 span {
+  color: var(--primary-color);
 }
