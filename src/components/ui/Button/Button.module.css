@@ -22,6 +22,11 @@
   box-shadow: var(--btn-box-shadow-hover);
 }
 
+.btn--cta:active {
+  background-color: var(--btn-cta-bgcolor);
+  border: var(--btn-cta-border);
+}
+
 .btn--contact {
   background-color: var(--btn-contact-bgcolor);
   border: var(--btn-contact-border);
@@ -32,4 +37,9 @@
   background-color: var(--btn-contact-bgcolor-hover);
   border: var(--btn-contact-border-hover);
   box-shadow: var(--btn-box-shadow-hover);
+}
+
+.btn--contact:active {
+  background-color: var(--btn-contact-bgcolor);
+  border: var(--btn-contact-border);
 }
