@@ -2,6 +2,14 @@
   width: 100%;
   padding: 1.6rem 3rem;
   margin-bottom: 4.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.logosContainer {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .icon {
@@ -14,7 +22,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.containerLogosImg {
+.logosSlider {
   width: 100%;
   justify-content: space-evenly;
   padding: 2rem;
@@ -30,6 +38,6 @@
   }
 }
 
-.containerLogosImg {
+.logosSlider {
   animation: scroll-x 10s infinite linear;
 }
