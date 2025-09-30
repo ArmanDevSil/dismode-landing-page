@@ -21,15 +21,17 @@ const TrustedBy = () => {
       className={`section ${styles.sectionTrustedBy} flex flex-center flex-column`}
     >
       <h2>Trusted By</h2>
-      <div className={`container ${styles.containerLogosImg} flex flex-center`}>
-        {brandsLogos.map(brandLogo => {
-          return (
-            <FontAwesomeIcon
-              className={styles.icon}
-              icon={brandLogo as IconProp}
-            />
-          );
-        })}
+      <div className={styles.logosContainer}>
+        <div className={`container ${styles.logosSlider} flex flex-center`}>
+          {brandsLogos.map(brandLogo => {
+            return (
+              <FontAwesomeIcon
+                className={styles.icon}
+                icon={brandLogo as IconProp}
+              />
+            );
+          })}
+        </div>
       </div>
     </section>
   );
