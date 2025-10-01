@@ -12,8 +12,7 @@ html {
 
 body {
   color: var(--bg-txt-color);
-  /* background: url('/background.jpg'); */
-  background: url('/background2.jpg');
+  background: url('/background.jpg');
   background-size: cover;
   font-family: 'Nunito', 'Roboto', sans-serif;
 }
