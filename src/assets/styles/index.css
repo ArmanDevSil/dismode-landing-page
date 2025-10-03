@@ -14,7 +14,8 @@ html {
 body {
   color: var(--bg-txt-color);
   background: url('/background.jpg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   font-family: 'Nunito', 'Roboto', sans-serif;
   text-align: center;
 }
@@ -62,4 +63,8 @@ h1 span {
 
 h2 {
   font-size: 3.4rem;
+}
+
+.section {
+  max-width: 135.6rem;
 }
