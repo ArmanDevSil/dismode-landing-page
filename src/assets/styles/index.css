@@ -16,6 +16,7 @@ body {
   background: url('/background.jpg');
   background-size: cover;
   font-family: 'Nunito', 'Roboto', sans-serif;
+  text-align: center;
 }
 
 a:link {
