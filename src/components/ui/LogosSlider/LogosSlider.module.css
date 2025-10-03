@@ -11,7 +11,7 @@
   display: flex;
   width: max-content;
   padding: 2rem 0;
-  gap: 8rem;
+  gap: 14rem;
 }
 
 @keyframes scroll-x {
@@ -19,10 +19,10 @@
     transform: translateX(-50%);
   }
   to {
-    transform: translateX(calc(0% + 4rem));
+    transform: translateX(calc(0% + 7rem));
   }
 }
 
 .logosSlider {
-  animation: scroll-x 35s infinite linear;
+  animation: scroll-x 30s infinite linear;
 }
