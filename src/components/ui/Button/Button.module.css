@@ -8,6 +8,7 @@
   padding: 1.5rem;
   border-radius: 10rem;
   box-shadow: var(--btn-box-shadow);
+  cursor: pointer;
 }
 
 .btn--cta {
