@@ -8,9 +8,19 @@ const HowItWorks = () => {
       <h2>
         How to Learn in <span>DisMode</span>
       </h2>
-      {howItWorksSteps.map(how => {
-        return <How title={how.title} text={how.text} img={how.img} />;
-      })}
+      <div className={`container ${styles.containerHow}`}>
+        {howItWorksSteps.map(how => {
+          const randomKey = crypto.randomUUID();
+          return (
+            <How
+              key={randomKey}
+              title={how.title}
+              text={how.text}
+              img={how.img}
+            />
+          );
+        })}
+      </div>
     </section>
   );
 };

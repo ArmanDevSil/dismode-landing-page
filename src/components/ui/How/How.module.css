@@ -1,11 +1,12 @@
 @import url('../../../assets/styles/variables.css');
 
-.containerHow {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.howTextBox h3 {
+  margin-bottom: 1.4rem;
 }
 
-.containerImg {
+.howTextBox p {
+  font-size: 1.8rem;
+  /* width: 30rem; */
 }
 
 .containerImg img {
@@ -13,5 +14,8 @@
   width: 21.6rem;
   backdrop-filter: blur(4px);
   border-radius: 10px;
+}
+
+.how {
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
 }

@@ -8,17 +8,17 @@ interface HowProps {
 
 const How = ({ title, text, img }: HowProps) => {
   return (
-    <div className={`container ${styles.containerHow}`}>
-      <div className={styles.howTextBox}>
-        <h3>{title}</h3>
-        <p className="textboxHow">{text}</p>
-      </div>
-
+    <div className={styles.how}>
       {img && (
         <div className={`container ${styles.containerImg}`}>
           <img src={img} alt="RoadMap example image" className="imgHow" />
         </div>
       )}
+
+      <div className={`${styles.howTextBox} flex flex-column flex-center`}>
+        <h3 className={styles.howTextBoxTitle}>{title}</h3>
+        <p className="textboxHow">{text}</p>
+      </div>
     </div>
   );
 };
