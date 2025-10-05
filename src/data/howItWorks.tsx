@@ -8,7 +8,7 @@ import jobImg from '../assets/img/job.png';
 interface howItWorksStep {
   title: string;
   text: React.ReactNode | string;
-  img?: string;
+  img: string;
 }
 
 export const howItWorksSteps: howItWorksStep[] = [
