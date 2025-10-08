@@ -1,21 +1,49 @@
 @import url('../../../assets/styles/variables.css');
 
 .howTextBox h3 {
+  font-size: 2rem;
   margin-bottom: 1.4rem;
 }
 
 .howTextBox p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   /* width: 30rem; */
+}
+
+.howTextBoxPara strong {
+  color: var(--primary-color);
 }
 
 .containerImg img {
   /* width: 100%; */
-  width: 21.6rem;
-  backdrop-filter: blur(4px);
+  width: 18rem;
   border-radius: 10px;
+  margin-bottom: 2rem;
 }
 
 .how {
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+  padding: 1.8rem;
+  border-radius: 1rem;
+  border: var(--btn-cta-border);
+  /* border-bottom: none; */
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 99%,
+    rgba(0, 191, 166, 1) 100%
+  );
+  box-shadow: 0 0 12px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  transition: all 0.2s;
+}
+
+.how:hover {
+  border: var(--btn-cta-border-hover);
+  /* border-bottom: none; */
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 95%,
+    rgba(0, 191, 166, 1) 100%
+  );
+  box-shadow: 0 0 14px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
 }

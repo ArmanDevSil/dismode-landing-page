@@ -17,7 +17,7 @@ const How = ({ title, text, img }: HowProps) => {
 
       <div className={`${styles.howTextBox} flex flex-column flex-center`}>
         <h3 className={styles.howTextBoxTitle}>{title}</h3>
-        <p className="textboxHow">{text}</p>
+        <p className={styles.howTextBoxPara}>{text}</p>
       </div>
     </div>
   );

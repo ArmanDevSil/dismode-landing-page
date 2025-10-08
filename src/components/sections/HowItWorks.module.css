@@ -3,6 +3,8 @@
 .containerHow {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
 }
 
 h2 {
@@ -11,4 +13,5 @@ h2 {
 
 .sectionHow {
   background-color: var(--bg-color);
+  padding-bottom: 6.4rem;
 }
