@@ -1,6 +1,7 @@
 import styles from './HowItWorks.module.css';
 import How from '../ui/How/How';
 import { howItWorksSteps } from '../../data/howItWorks.tsx';
+import Button from '../ui/Button/Button.tsx';
 
 const HowItWorks = () => {
   return (
@@ -21,6 +22,7 @@ const HowItWorks = () => {
           );
         })}
       </div>
+      <Button text="Start to Learn" className="btn btn--cta" />
     </section>
   );
 };
