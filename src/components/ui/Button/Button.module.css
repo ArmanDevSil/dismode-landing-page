@@ -11,6 +11,8 @@
   cursor: pointer;
 }
 
+/* CTA BUTTON */
+
 .btn--cta {
   background-color: var(--btn-cta-bgcolor);
   border: var(--btn-cta-border);
@@ -29,6 +31,8 @@
   box-shadow: var(--btn-box-shadow);
 }
 
+/* CONTACT BUTTON */
+
 .btn--contact {
   background-color: var(--btn-contact-bgcolor);
   border: var(--btn-contact-border);
@@ -45,4 +49,11 @@
   background-color: var(--btn-contact-bgcolor);
   border: var(--btn-contact-border);
   box-shadow: var(--btn-box-shadow);
+}
+
+/* SUBSCRIBE BUTTON */
+
+.btn--sub {
+  background-color: var(--btn-sub-bgcolor);
+  border: var(--btn-sub-border);
 }

@@ -23,4 +23,8 @@
   --btn-contact-bgcolor-hover: rgba(255, 255, 255, 0.2);
   --btn-contact-border: solid 1px rgba(255, 255, 255, 0.2);
   --btn-contact-border-hover: solid 1px rgba(255, 255, 255, 0.3);
+
+  /* button subscribe */
+  --btn-sub-bgcolor: rgb(245, 227, 56, 0.1);
+  --btn-sub-border: solid 1px rgb(245, 227, 56, 0.5);
 }
