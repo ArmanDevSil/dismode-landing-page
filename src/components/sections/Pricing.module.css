@@ -1,0 +1,10 @@
+@import url('../../assets/styles/variables.css');
+
+.sectionPricing {
+  background-color: var(--bg-color);
+}
+
+.sectionPricing h2 {
+  padding: 2rem;
+  width: 63rem;
+}
